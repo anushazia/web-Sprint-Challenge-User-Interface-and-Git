@@ -34,9 +34,16 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way to give meaning to the HTML markup.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+With display block the top and bottom margins/paddings are respected, but with display inline they are not. display inline there is no space between lines/elements and display block you have more spaces in between the lines.
+display: block means that the element is displayed as a block. A block has some whitespace above and below it. Display: inline means that the element is displayed inline, inside the current block on the same line. 
+
 3. What are the 4 areas of the box model?
+
+
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
