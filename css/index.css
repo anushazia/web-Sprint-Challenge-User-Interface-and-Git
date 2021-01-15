@@ -31,8 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-.logo img{
-    width: 80px;
+.logo{
     
     display: inline-block;
 }
@@ -105,6 +104,24 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+.container .logo {
+    display:inline-block;
+    width:20%;
+    padding:15px 0;
+}
+
+.container nav{
+    display:inline-block;
+    width:70%;
+    text-align:center;
+    height:30px;
+    margin-left:20px;
+  }
+
+  .container nav a{
+    padding:13px 30px;
+  }
 
 .top-content {
     display: flex;
